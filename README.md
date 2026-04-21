@@ -1,17 +1,8 @@
-# FAST-NU CampusLink
+<img width="778" height="414" alt="image" src="https://github.com/user-attachments/assets/9a7d6b9d-7020-42c7-b6a2-5ea0260166c2" /># FAST-NU CampusLink
 
 A multi-campus communication system for a Computer Networks lab project.
 
 This project implements a central server and campus clients that communicate using TCP (for authentication, routed messages, and file transfer) and UDP (for heartbeat monitoring). It also includes a GTK-based GUI client and a Packet Tracer topology file.
-
-## Suggested Project Name
-
-Primary suggestion: **FAST-NU CampusLink**
-
-Other good options:
-- **NU InterCampus Exchange**
-- **Campus Relay Network (CRN)**
-- **FAST Campus Connect**
 
 ## What This Project Does
 
@@ -106,6 +97,24 @@ Server -> All Connected Clients:
 
 `BROADCAST:<MESSAGE>`
 
+# Demonstration
+
+### Islamabad Server
+<img width="784" height="479" alt="Image" src="https://github.com/user-attachments/assets/ae2ffa4d-54b8-4e0b-ba47-8a215b180bc6" />
+
+### Status
+<img width="538" height="247" alt="Image" src="https://github.com/user-attachments/assets/ad10658f-f8ab-4cdc-ac4f-86aff855ea47" />
+
+### Messaging from one server to other
+<img width="778" height="414" alt="Image" src="https://github.com/user-attachments/assets/d11a8668-14b3-4341-a7f8-a21bc89db8ba" />
+
+### GUI-SIDE & File Transfer System
+<img width="733" height="897" alt="Image" src="https://github.com/user-attachments/assets/2e81535a-4c35-466f-ae3b-bf3cde40c6dd" />
+
+### CISCO Packet Tracer  
+<img width="1747" height="611" alt="Image" src="https://github.com/user-attachments/assets/9c3200a0-e672-493f-a697-ddced24da845" />
+
+
 ## Requirements
 
 Recommended environment: **Linux / WSL** (code uses POSIX sockets and `unistd.h`).
@@ -190,24 +199,6 @@ Note: This requires a Linux desktop with `gnome-terminal`.
 - `test_system.sh` - Multi-terminal test launcher
 - `CN-LAB-PROJECT.pkt` - Cisco Packet Tracer topology/project file
 - `test.txt` - Basic placeholder text file
-
-## Current Limitations
-
-- No encryption/TLS for messages or credentials.
-- Credentials are hard-coded in server source.
-- Broadcast routine is sent over TCP sockets (despite UDP-oriented naming).
-- File payload is hex-encoded text, which increases transfer size.
-- No persistent message history/database.
-- Primarily Linux-oriented implementation.
-
-## Suggested Future Improvements
-
-- Add TLS and secure credential handling.
-- Move credentials and config into external files.
-- Add ACK/retry and delivery status for reliability.
-- Use binary-safe framing protocol instead of plain delimiters.
-- Add message persistence and logs.
-- Add CMake/Makefile for easier cross-platform build.
 
 ## Academic Note
 
