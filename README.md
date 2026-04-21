@@ -1,4 +1,4 @@
-<img width="778" height="414" alt="image" src="https://github.com/user-attachments/assets/9a7d6b9d-7020-42c7-b6a2-5ea0260166c2" /># FAST-NU CampusLink
+# FAST-NU CampusLink
 
 A multi-campus communication system for a Computer Networks lab project.
 
@@ -104,6 +104,10 @@ Server -> All Connected Clients:
 
 ### Status
 <img width="538" height="247" alt="Image" src="https://github.com/user-attachments/assets/ad10658f-f8ab-4cdc-ac4f-86aff855ea47" />
+
+### Message Broadcasting from Central Server
+<img width="804" height="96" alt="Image" src="https://github.com/user-attachments/assets/a7a0b6c3-b7ef-4b7e-914f-f119d9a5104b" />
+<img width="800" height="357" alt="Image" src="https://github.com/user-attachments/assets/c6bb33ab-75aa-442e-a721-7d4e484f606a" />
 
 ### Messaging from one server to other
 <img width="778" height="414" alt="Image" src="https://github.com/user-attachments/assets/d11a8668-14b3-4341-a7f8-a21bc89db8ba" />
